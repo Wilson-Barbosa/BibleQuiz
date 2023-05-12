@@ -1,0 +1,38 @@
+/* i've put an image from the internet and scale it to adjust to the page's size*/
+html {
+    background-image: url(https://openthebible.org/wp-content/uploads/2022/03/timothy-eberly-U4UwzRSns6M-unsplash-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*This adds style to the title and introduction parts of the page*/
+header {
+    font-family: Tahoma;
+    font-style: italic;
+    color: #FFFFFF;
+    border: 0px solid black;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* I need to use display block because the labels are inline elements and I want them to behave like blocks*/
+label {
+    display: block;
+}
+
+/*This sets the borders of the question's boxes to be round*/
+.question {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+fieldset {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: bisque;
+}

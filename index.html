@@ -1,0 +1,139 @@
+<!--
+    Instructions
+    1 - Create a question with 4 alternatives.
+    2 - There must be only one correct answer.
+    3 - The alternatives must be structured as radio buttons
+    4 - I'm gonna try to use some new concepts I've gotten from freecodecamp.org course on webdesign
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Bible Quiz 2.0</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <header>
+            <!--Introduction-->
+            <h1>Bible Quiz</h1>
+            <p>Do you know everything about The Scripture? You think you have a good grasp on it? If so try this quick quiz and test your Bible knowledge! Every question has only one right answer. At the end you can submit your answers and see how you did it! Good luck!</p>
+        </header><br><!--for now i'll be using line breaker to separete things here-->
+
+        <form>
+            <!--1st Question-->
+            <div>
+                <fieldset class="question" id="question_one">
+                    <p>1. Who is the author of the book "Acts of the Apostles"?</p>
+                    <label for="1stA"><input id="1stA" name="answer1" value="Luke" type="radio">Luke</label>
+                    <label for="1stB"><input id="1stB" name="answer1" value="Peter" type="radio">Peter</label>
+                    <label for="1stC"><input id="1stC" name="answer1" value="Matthew" type="radio">Matthew</label>
+                    <label for="1stD"><input id="1stD" name="answer1" value="Paul" type="radio">Paul</label>
+                </fieldset>
+            </div><br>
+
+            <!--2nd Question-->
+            <div>
+                <fieldset class="question">
+                    <p>2. How many Apostles Jesus called in His Ministery?</p>
+                    <label for="2ndA"><input id="2ndA" name="answer2" value="70" type="radio">70</label>
+                    <label for="2ndB"><input id="2ndB" name="answer2" value="12" type="radio">12</label>
+                    <label for="2ndC"><input id="2ndC" name="answer2" value="7" type="radio">7</label>
+                    <label for="2ndD"><input id="2ndD" name="answer2" value="11" type="radio">11</label>
+                </fieldset>
+            </div><br>
+
+            <!--3rd Question-->
+            <div>
+                <fieldset class="question">
+                    <p>3. What was the name of the first King of Israel?</p>
+                    <label for="3rdA"><input id="3rdA" name="answer3" type="radio">David</label>
+                    <label for="3rdB"><input id="3rdB" name="answer3" type="radio">Solomon</label>
+                    <label for="3rdC"><input id="3rdC" name="answer3" type="radio">Saul</label>
+                    <label for="3rdD"><input id="3rdD" name="answer3" type="radio">Elijah</label>
+                </fieldset class="question">
+            </div><br>
+
+            <!--4th Question-->
+            <div>
+                <fieldset class="question">
+                    <p>4. From what Tribe was Paul from?</p>
+                    <label for="4thA"><input id="4thA" name="answer4" type="radio">Levi</label>
+                    <label for="4thB"><input id="4thB" name="answer4" type="radio">Judah</label>
+                    <label for="4thC"><input id="4thC" name="answer4" type="radio">Dan</label>
+                    <label for="4thD"><input id="4thD" name="answer4" type="radio">Benjamin</label>
+                </fieldset>
+            </div><br>
+
+            <!--5th Question-->
+            <div>
+                <fieldset class="question">
+                    <p>5. How many books there are on a Reformed Bible? (Old and New testament combined)</p>
+                    <label for="5thA"><input id="5thA" name="answer5" type="radio">66</label>
+                    <label for="5thB"><input id="5thB" name="answer5" type="radio">73</label>
+                    <label for="5thC"><input id="5thC" name="answer5" type="radio">68</label>
+                    <label for="5thD"><input id="5thD" name="answer5" type="radio">72</label>
+                </fieldset>
+            </div><br>
+
+            <!--6th Question-->
+            <div>
+                <fieldset class="question">
+                    <p>6. Who were the three people who came to see Job during his crisis?</p>
+                    <label for="6thA"><input id="6thA" name="answer6" type="radio">Eliphaz, Temanite, Zophar</label>
+                    <label for="6thB"><input id="6thB" name="answer6" type="radio">Temanite, Eliphaz, Jeremiah</label>
+                    <label for="6thC"><input id="6thC" name="answer6" type="radio">Zophar, Temanite, Elisha</label>
+                    <label for="6thD"><input id="6thD" name="answer6" type="radio">Joel, Eliphaz, Zophar</label>
+                </fieldset>
+            </div><br>
+
+            <!--7th Question-->
+            <div>
+                <fieldset class="question">
+                    <p>7. Who is the author of the letter known as Second Timothy?</p>
+                    <label for="7thA"><input id="7thA" name="answer7" type="radio">Mark</label>
+                    <label for="7thB"><input id="7thB" name="answer7" type="radio">Apollos</label>
+                    <label for="7thC"><input id="7thC" name="answer7" type="radio">James</label>
+                    <label for="7thD"><input id="7thD" name="answer7" type="radio">Paul</label>
+                </fieldset>
+            </div><br>
+
+            <!--8th Question-->
+            <div>
+                <fieldset class="question">
+                    <p>8. Who was the first martyr mentioned in the New Testament?</p>
+                    <label for="8thA"><input id="8thA" name="answer8" type="radio">John</label>
+                    <label for="8thA"><input id="8thB" name="answer8" type="radio">Peter</label>
+                    <label for="8thA"><input id="8thC" name="answer8" type="radio">Titus</label>
+                    <label for="8thA"><input id="8thD" name="answer8" type="radio">Stephen</label>
+                </fieldset>
+            </div><br>
+
+            <!--9th Question-->
+            <div>
+                <fieldset class="question">
+                    <p>9. What was the Language in which the New Testament was originally written?</p>
+                    <label for="9thA"><input id="9thA" name="answer9" type="radio">Greek</label>
+                    <label for="9thB"><input id="9thB" name="answer9" type="radio">Latin</label>
+                    <label for="9thC"><input id="9thC" name="answer9" type="radio">Aramaic</label>
+                    <label for="9thD"><input id="9thD" name="answer9" type="radio">Hebrew</label>
+                </fieldset>
+            </div><br>
+
+            <!--10th Question-->
+            <div>
+                <fieldset class="question">
+                    <p>10. For how long did Methuselah lived?</p>
+                    <label for="10thA"><input id="10thA" name="answer10" type="radio">999 years</label>
+                    <label for="10thB"><input id="10thB" name="answer10" type="radio">969 years</label>
+                    <label for="10thC"><input id="10thC" name="answer10" type="radio">1.000 years</label>
+                    <label for="10thD"><input id="10thD" name="answer10" type="radio">869 years</label>
+                </fieldset>
+            </div>
+        </form>
+
+        <footer></footer>
+    </body>
+</html>
